@@ -80,3 +80,10 @@ button {
   -webkit-transform: translate3d(0, 0, -1em);
   transform: translate3d(0, 0, -1em);
  }
+
+ @media (max-width:500px){
+  .container-boton{
+    display: flex;
+    flex-direction: column;
+  }
+ }
