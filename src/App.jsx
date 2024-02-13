@@ -3,8 +3,8 @@ import './App.css'
 
 const phrases = [
   "No",
-  "Estas segura?",
-  "Realmente segura?",
+  "Estas segur@?",
+  "Realmente segur@?",
   "No me hagas esto :c",
   "Voy a llorar :c",
   "Vas a romper mi corazon :c",
@@ -35,7 +35,7 @@ function App() {
           </img>
 
           <div>Queres ser mi san valentin?</div>
-          <div>
+          <div className='container-boton gap-3'>
             <button onClick={() => setYesPressed(true)} className='learn-more' style={{fontsize: yesButtonSize}}>
                   Si
             </button>
