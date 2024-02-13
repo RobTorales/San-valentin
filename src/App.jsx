@@ -21,7 +21,7 @@ function App() {
   }
 
   function getNoButtonText(){
-    return phrases [Math.min(noCount, phrases.length -1)]
+    return phrases [Math.min(noCount, phrases.length - 1)];
   } 
   return (
     <div className='container-valentine'>
