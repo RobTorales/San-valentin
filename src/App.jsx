@@ -6,7 +6,7 @@ const phrases = [
   "Estas segura?",
   "Realmente segura?",
   "No me hagas esto :c",
-  "Voy a llorar",
+  "Voy a llorar :c",
   "Vas a romper mi corazon :c",
 ];
 
@@ -27,11 +27,11 @@ function App() {
     <div className='container-valentine'>
       {yesPressed ? (
         <>
-        <img src="https://media1.tenor.com/m/UHk41PVqqbgAAAAC/milk-and.gif"></img>
+        <img src="https://media1.tenor.com/m/UHk41PVqqbgAAAAC/milk-and.gif" className='img-fluid'></img>
         </>
       ) : (
         <>
-          <img src="https://media1.tenor.com/m/wbR-PWAKlioAAAAC/love-milk-and-mocha.gif">
+          <img src="https://media1.tenor.com/m/wbR-PWAKlioAAAAC/love-milk-and-mocha.gif" className='img-fluid'>
           </img>
 
           <div>Queres ser mi san valentin?</div>
